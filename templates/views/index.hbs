@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <title>Oranga Weather</title>
+    <link rel="stylesheet" href="/css/styles.css">
+  </head>
+
+  <body>
+    <div class = "main-content">
+    {{>header}}
+    <p>Get the weather from an oragutan!</p>
+    <form>
+      <input placeholder="Location">
+      <button>Search</button>
+    </form>
+    <p id="message-one"></p>
+    <p id="message-two"></p>
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+  </body>
+
+</html>
